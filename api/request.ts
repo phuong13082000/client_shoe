@@ -1,7 +1,7 @@
 import axios from "axios";
 import {Product} from "../types/Product";
 
-const SHOE_API_BASE_URL = process.env.NEXT_PUBLIC_SHOE_API_BASE_URL;
+const SHOE_API_BASE_URL = "http://localhost:3000/";
 
 const BASE_URL = "https://shoes-api-wihw.onrender.com/api";
 
